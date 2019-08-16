@@ -1,0 +1,113 @@
+/******************* Navbar icons *******************/
+.fa {
+    font-size: small;
+    text-align: center;
+    width: 26px;
+    border-radius: 7px;
+}
+
+.nav-icon.fa {
+    padding: 3px 2px;
+    color: #fff;
+    background-color: #575759;
+    border: 1px solid #575759;
+}
+
+.fa.fa-caret-down {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.end .fa,
+.nav-item:last-of-type .fa,
+.account-info .fa,
+nav span {
+    color: #575759;
+    cursor: pointer;
+}
+
+/******************* Main Section Transparent Icons *******************/
+main i {
+    border: 1px solid #fff;
+    margin: auto;
+}
+
+main .fa {
+    background-color: transparent;
+    width: 30px;
+    min-width: 30px;
+    padding: 4px 3px;
+}
+
+.icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.account-info .fa {
+    border-color: #fff;
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.more i,
+.fa-plus,
+.account-info .show-more .fa {
+    border-radius: 50%;
+    width: 18px;
+    min-width: 18px;
+    height: 18px;
+    background-color: #fff;
+    color: #0e2024;
+    line-height: 9px;
+    cursor: pointer;
+}
+
+/* Account info Pop-up */
+.account-info .fa {
+    border: 1px solid;
+    display: block;
+    margin: 3px auto 0;
+}
+
+.account-info .row .fa-plus,
+.account-info .show-more .fa {
+    max-width: 18px;
+    max-height: 18px;
+    min-width: 18px;
+    display: inline-block;
+}
+
+.account-info .fa.reverse,
+#account img.image-list {
+    color: #fff;
+    background-color: #575759;
+    border-radius: 14px;
+    width: 33px;
+    min-width: 33px;
+    height: 33px;
+    min-height: 33px;
+    line-height: 2;
+}
+
+.account-info .row .fa-plus {
+    color: #fff;
+    background-color: #575759;
+}
+
+.account-info .show-more .fa {
+    color: #fff;
+    background-color: #878787;
+}
+
+/************************ Footer ***************************************/
+#footer-container .fa {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    line-height: 1.7;
+    margin: 0 5px;
+}

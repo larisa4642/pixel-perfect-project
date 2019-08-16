@@ -1,0 +1,63 @@
+@media (min-width: 1200px) {
+    header,
+    .description-container {
+        max-width: 92%;
+        margin: 0 auto;
+    }
+
+    .main-column:first-of-type {
+        padding-left: 0;
+    }
+
+    .my-network button {
+        left: -45px;
+        height: 34px;
+    }
+
+    /*  Carousel Cards*/
+    .card-bottom {
+        justify-content: space-between;
+    }
+
+    .carousel-control-next .more span {
+        display: inline;
+    }
+
+    .carousel-control-next .more {
+        right: 16px;
+    }
+
+    #geneTherapy,
+    #popular,
+    #pinned,
+    #pin-info,
+    #latestModules,
+    #multipleCards,
+    .section-title,
+    #footer-container {
+        width: 93%;
+        margin: auto;
+    }
+
+    #multipleCards .card {
+        width: 24%;
+    }
+
+    .card-header {
+        padding-top: 10px;
+        overflow: hidden;
+        line-height: normal;
+        height: 50px;
+    }
+
+    .card-header .fa {
+        margin-right: 10px;
+    }
+
+    .relative.pinned {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+

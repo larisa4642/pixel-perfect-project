@@ -1,0 +1,7 @@
+.idea/
+node/
+node_modules/
+public/app-bundle.js
+public/app-bundle.js.map
+server/node_modules/
+server/.idea/

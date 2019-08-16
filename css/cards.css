@@ -1,0 +1,170 @@
+.card,
+.card-header,
+.card-header:first-child {
+    border: 0;
+    border-radius: 0;
+}
+
+.card {
+    margin: 0 10px;
+}
+
+.card-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-header p {
+    margin-bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.card-header span {
+    line-height: 1;
+    overflow: hidden;
+    max-height: 2em;
+}
+
+.card {
+    min-height: 100%;
+}
+
+.card-header i {
+    margin: auto 5px;
+}
+
+.card-text,
+.pin-share {
+    color: #575759;
+}
+
+.card button,
+.pin-share {
+    margin: 5px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+/*Like-Pin-Share Section*/
+.pin-share {
+    background-color: transparent;
+    width: 120px;
+    height: 32px;
+    border-radius: 13px;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+.likes,
+.share {
+    width: 48%;
+    display: inline-block;
+    height: 96%;
+    padding-left: 8px;
+}
+
+.likes {
+    border-right: 1px dotted #ccc;
+}
+
+.likes span {
+    font-size: 12px;
+}
+
+.likes .fa,
+.share .fa {
+    padding: 0;
+    width: 20px;
+    min-width: 20px;
+    cursor: pointer;
+}
+
+.card-text {
+    line-height: 1.5em;
+    max-height: 4.5em;
+    min-height: 4.5em;
+    overflow: hidden;
+}
+
+.card-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#multipleCards button,
+#latestModules .card button {
+    color: #186294;
+    background-color: #cfdde8;
+}
+
+#geneTherapy .card button,
+#multipleCards .card:first-child button {
+    color: #eb982d;
+    background-color: #f7e8d2;
+}
+
+#popular .card button,
+#multipleCards .card:last-child button {
+    color: #173b26;
+    background-color: #dbe3d5;
+}
+
+#geneTherapy .card-header,
+#multipleCards .card:first-child .card-header {
+    background-color: #5c130d;
+    background-image: linear-gradient(-90deg, #5c130d, #eb982d, #5c130d)
+}
+
+#popular .card-header,
+#multipleCards .card:last-child .card-header {
+    background-color: #14361f;
+    background-image: linear-gradient(-90deg, #14361f, #2b5239, #14361f);
+}
+
+.check-overflow {
+    position: relative;
+}
+
+.check-overflow a {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #242424;
+    font-weight: 600;
+    text-decoration: underline;
+    background-color: white;
+    z-index: 1;
+}
+
+/*Simple cards*/
+
+p.viewed {
+    color: #242424;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+
+#multipleCards button {
+    margin: 5px auto;
+    width: 96%;
+}
+
+#multipleCards .card {
+    margin-bottom: 5px;
+}
+

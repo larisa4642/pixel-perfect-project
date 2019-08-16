@@ -1,0 +1,109 @@
+@media all and (-ms-high-contrast: none) {
+
+    .description-container {
+        display: block;
+    }
+
+    main .fa {
+        height: 30px;
+        padding: 7px 3px;
+    }
+
+    .more i,
+    .account-info .row .fa-plus,
+    .account-info .show-more .fa {
+        width: 18px;
+        min-width: 18px;
+        height: 18px;
+        line-height: 2px;
+    }
+
+    .card-header span {
+        line-height: 14px;
+    }
+}
+
+@media all and (min-width: 768px) and (-ms-high-contrast: none) {
+    *::-ms-backdrop,
+    .main-column,
+    .main-column:first-of-type {
+        flex: 0 0 100%;
+        max-width: 100%;
+        border-right: 0;
+    }
+
+    .main-column:first-of-type {
+        border-bottom: 1px solid;
+    }
+
+    .more i {
+        width: 18px;
+        min-width: 18px;
+        height: 18px;
+        padding: 0;
+        line-height: 16px;
+    }
+
+    .card-header div {
+        width: 45%;
+    }
+
+    .card-header span {
+        line-height: 1;
+    }
+
+    #multipleCards .card {
+        width: 24%;
+    }
+
+    .carousel-inner:not(.multiple) .carousel-item-next {
+        -ms-transform: translateX(0);
+    }
+
+    article:not(.multipleCards) .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    article:not(.multipleCards) .carousel-item-next.carousel-item-left:not(.multiple) + .carousel-item,
+    article:not(.multipleCards) .carousel-item-next.carousel-item-left:not(.multiple) + .carousel-item + .carousel-item,
+    article:not(.multipleCards) .carousel-item-next.carousel-item-left:not(.multiple) + .carousel-item + .carousel-item + .carousel-item {
+        transform: translateX(-100%);
+    }
+
+    article:not(.multipleCards) .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    article:not(.multipleCards) .carousel-item-prev.carousel-item-right:not(.multiple) + .carousel-item,
+    article:not(.multipleCards) .carousel-item-prev.carousel-item-right:not(.multiple) + .carousel-item + .carousel-item,
+    article:not(.multipleCards) .carousel-item-prev.carousel-item-right:not(.multiple) + .carousel-item + .carousel-item + .carousel-item {
+        transform: translateX(100%);
+    }
+
+}
+
+@media all and (min-width: 1200px) and (-ms-high-contrast: none) {
+    *::-ms-backdrop,
+    .description-container {
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .main-column {
+        flex: 0 0 50%;
+        max-width: 48%;
+    }
+
+    .main-column:first-of-type {
+        padding-right: 5%;
+        border-right: 1px solid;
+        max-width: 50%;
+        border-bottom: 0;
+    }
+
+    .main-column .col-lg-1 {
+        max-width: 10.5%;
+    }
+
+    .main-column .col-lg-3 {
+        max-width: 22.5%;
+    }
+
+    .card-header div {
+        width: 25%;
+    }
+}

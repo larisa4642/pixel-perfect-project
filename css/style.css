@@ -1,0 +1,553 @@
+/********************************** Header Section **********************************/
+
+/* Menu */
+header {
+    padding: 5px 0;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar .nav {
+    list-style-type: none;
+}
+
+.navbar-light .navbar-toggler {
+    outline: 0;
+}
+
+button.nav-link {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/********************************* Content Section **************************************/
+
+/* Main Horizontal Section 1 */
+main,
+.card-header {
+    background-color: #0e2024;
+    background-image: linear-gradient(-90deg, #0e2024, #286078, #0e2024);
+    color: #fff;
+    overflow: hidden;
+}
+
+.description-container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    color: #fff;
+    font-weight: 200;
+}
+
+.description-container ul {
+    padding-inline-start: 20px;
+}
+
+/* First section container */
+.description-container button,
+.card button {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 13px;
+    width: 100px;
+    border: 1px solid;
+    height: 32px;
+    align-self: flex-end;
+    margin: auto auto 18px;
+}
+
+/* Left list from Section 1 */
+.main-list,
+.main-column:first-of-type {
+    border-bottom: 1px solid;
+}
+
+.main-column:first-of-type {
+    margin-bottom: 10px;
+    padding-left:5px;
+}
+
+.main-list {
+    padding-top: 10px;
+    margin:0 10px;
+}
+
+.main-list:nth-of-type(3) {
+    border: 0;
+}
+
+.main-list,
+.main-column,
+.account-info ul li {
+    border-color: #fff;
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* More button */
+.more {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+}
+
+.more span {
+    font-size: small;
+    font-weight: 100;
+}
+
+.relative {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+/* My network toogle section */
+.my-network {
+    position: absolute;
+    width: 300px;
+    top: 14px;
+    left: 0;
+    z-index: 10;
+}
+
+.my-network button {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+    width: 120px;
+    top: 43px;
+    left: -53px;
+    height: 20px;
+    font-size: small;
+    line-height: 0;
+    background-color: #145075;
+    border: 2px solid #166494;
+    outline: 0;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.my-network button:not(.button-only) {
+    top: 40px;
+    left: 260px;
+    position: absolute;
+    height: 40px;
+    border-bottom: 0;
+    border-color: transparent;
+    transform-origin: unset;
+    color: #fff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* Account Info Section */
+#account {
+    display: none;
+}
+
+#account.show-div {
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #145075 0%, #145075 120px, #fff 20px, white 380px, #fff 100%);
+    min-height: 600px;
+    width: 300px;
+    display: block;
+    position: relative;
+}
+
+#account img.profile {
+    border: 2px solid #cfdde8;
+    border-radius: 25px;
+    transform: translateY(69px);
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+.account-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 450px;
+    border: 1px solid;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.account-info ul {
+    list-style-type: none;
+    padding: 0 10px;
+    color: #575759;
+    margin: auto;
+    height: inherit;
+    width: inherit;
+}
+
+.account-info ul li {
+    border-bottom: 1px solid;
+    min-height: 40px;
+    max-height: 51px;
+}
+
+.account-info ul li:last-of-type {
+    border: 0;
+    max-height: 274px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.account-info ul li span {
+    display: block;
+    text-align: center;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.account-info .row div {
+    align-self: center;
+    padding: 5px 0;
+}
+
+.account-info .row span {
+    line-height: 1;
+    font-size: smaller;
+    text-align: left;
+}
+
+.account-info .row .connect {
+    display: inline;
+    font-size: 12px;
+}
+
+.account-info li p {
+    text-align: center;
+}
+
+#account img.image-list {
+    display: block;
+    margin: auto;
+}
+
+.account-info .show-more {
+    position: absolute;
+    display: inline-flex;
+    bottom: 2px;
+    right: 2px;
+    color: #878787;
+}
+
+/*First Carousel Section*/
+article .geneTherapy,
+article .latestModules,
+article .popular,
+article.multipleCards {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+article .latestModules {
+    background-color: #166494;
+}
+
+/*Carousel*/
+.carousel-indicators {
+    bottom: -35px;
+}
+
+.carousel-indicators > li {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #3d3d3d;
+}
+
+.carousel-indicators > li.active {
+    background-color: #3d3d3d;
+}
+
+.carousel-container {
+    max-width: 92%;
+    margin: 0 auto;
+    padding: .5rem 1rem;
+}
+
+.carousel-control-next {
+    right: 0;
+    opacity: 1;
+}
+
+.carousel-control-next .more {
+    right: 3px;
+    bottom: auto;
+    font-size: small;
+}
+
+.num {
+    float: right;
+    font-size: small;
+    line-height: 3;
+    margin-right: 25px;
+}
+
+.carousel-control-next .more span {
+    display: none;
+}
+
+/*Popular Carousel*/
+
+article .popular,
+article .pin{
+    background-color: #fff;
+}
+
+.popular .card,
+.geneTherapy .card,
+#pin-info .fa-chevron-up,
+#multipleCards .card {
+    border: 1px solid #E8E8E8;
+}
+
+/* Gene therapy Carousel Section */
+article .geneTherapy {
+    background-color: #faf4eb;
+}
+
+article .geneTherapy .button-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 300px;
+    float: right;
+}
+
+.geneTherapy h4 button {
+    font-size: 14px;
+    color: #fff;
+    background-color: #d6851c;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    padding: 3px 20px;
+    border: 1px solid #bd660f;
+    margin: 5px 10px;
+}
+
+.geneTherapy h4,
+.popular h4,
+.multipleCards h4,
+.pinned h4 {
+    color: #242424;
+    margin-bottom: 18px;
+}
+
+#geneTherapy,
+#popular,
+#latestModules,
+#pinned,
+#multipleCards,
+.section-title {
+    width: 100%;
+}
+
+.section-title {
+    padding-left: 24px;
+}
+
+.gray-arrow span,
+#pin-info span,
+#pin-info p,
+#pin-info .fa-chevron-up {
+    color: #7d7d7d;
+}
+
+.gray-arrow.more i {
+    background-color: #7d7d7d;
+    border-color: #7d7d7d;
+    color: #fff;
+}
+
+/*Multiple Cards Slide Carousel*/
+article.multipleCards {
+    background-color: #def1fa;
+}
+
+.slide-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column;
+}
+
+#multipleCards {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Pinned Section */
+.relative.pinned,
+.relative.pin{
+    padding-left:15px;
+    padding-right:15px;
+}
+.relative.pin{
+    padding-top:10px;
+}
+
+.pinned-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.pinned-container div {
+    background-color: #fff;
+    width: 22%;
+    border: 5px dotted #7d7d7d;
+    border-image-repeat: repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.pinned-container div i {
+    color: #7d7d7d;
+    max-width: 50px;
+    width: 50px;
+    transform: scale(2);
+    border: none;
+    align-self: center;
+}
+
+article .pinned {
+    background-color: #ebf8fa;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#pin-info .fa-thumb-tack {
+    background-color: orange;
+}
+
+#pin-info .fa-chevron-up {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    line-height: 26px;
+    background-color: #fff;
+
+}
+
+#pin-info div:first-of-type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+#pin-info div:first-of-type .pin {
+    padding: 0 10px;
+    display: block;
+    text-align: center;
+}
+
+#pin-info {
+    padding-right: 10px;
+}
+
+#back-to-top {
+    position: fixed;
+    left: 40px;
+    margin-left: -20px;
+    bottom: 20px;
+    opacity: 0;
+    z-index: -1;
+    display: none;
+}
+
+#back-to-top.show {
+    display: block;
+    opacity: 1;
+    z-index: 20;
+    filter: alpha(opacity=100);
+    -ms-filter: alpha(opacity=100);
+}
+
+/********************************* Footer **************************************/
+
+footer {
+    background-color: #171f26;
+}
+
+footer p {
+    color: #fff;
+    font-size: smaller;
+}
+
+#footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 23px;
+}
+
+.footer-content {
+    display: block;
+    text-align: right;
+}
+
+.footer-content p:not(.social) {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+footer p.gray {
+    color: #7d7d7d;
+}
+
+
+
+
